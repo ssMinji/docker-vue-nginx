@@ -47,7 +47,7 @@ export default {
   methods: {
     test: function () {
       
-      this.axios.get('http://localhost:8080/bgv1').then((resp) => {
+      this.axios.get('http://localhost:8080/api/v1/test/hello').then((resp) => {
         this.connectData = resp.data
         console.log(resp)
       })
