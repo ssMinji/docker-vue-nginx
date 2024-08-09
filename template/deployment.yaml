@@ -14,7 +14,7 @@ spec:
         run: sample-ui
     spec:
       containers:
-      - image: minji3262/git-argocd:docker-vue
+      - image: minji3262/git-argocd:docker-vue-new
         name: sample-ui
         ports:
         - containerPort: 8080
