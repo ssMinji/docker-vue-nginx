@@ -47,11 +47,7 @@ export default {
   methods: {
     test: function () {
       
-      this.axios.get('http://192.168.49.2:32635/api/v1/test/hello', {
-        headers: {
-          "Access-Control-Allow-Origin": "*"
-        }
-      }).then((resp) => {
+      this.axios.get('http://192.168.49.2:32635/api/v1/test/hello').then((resp) => {
         this.connectData = resp.data
         console.log(resp)
       })
