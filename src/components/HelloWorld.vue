@@ -28,7 +28,7 @@
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
     </ul> -->
     <ul>
-      <li><button class="favorite styled" type="button" style="background-color:blue; color:white" v-on:click="test">Blue</button></li>
+      <li><button class="favorite styled" type="button" style="background-color:green; color:white" v-on:click="test">Blue</button></li>
     </ul>
   </div>
 </template>
