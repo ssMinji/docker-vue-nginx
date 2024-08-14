@@ -47,7 +47,7 @@ export default {
   methods: {
     test: function () {
       
-      this.axios.get('http://192.168.49.2:32635/api/v1/test/hello').then((resp) => {
+      this.axios.get('http://192.168.49.2:32636/api/v2/test/hello').then((resp) => {
         this.connectData = resp.data
         console.log(resp.data)
       })
